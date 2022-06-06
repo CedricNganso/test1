@@ -1,0 +1,75 @@
+{
+  data: [
+  {
+    name: "Farbe",
+    type: "enum",
+    values: [
+      {
+        imageUrl: null,
+        name: "Rot",
+        positionValue: "20"
+      },
+      {
+        imageUrl: null,
+        name: "Silber",
+        positionValue: "21"
+      }
+    ],
+    position: 2,
+    multiVariantAllowed: false
+  },
+  {
+    name: "Materialen",
+    type: "enum",
+    values: [
+      {
+        imageUrl: null,
+        name: "Glas",
+        positionValue: "10"
+      },
+      {
+        imageUrl: null,
+        name: "Holz",
+        positionValue: "11"
+      }
+    ],
+    position: 1,
+    multiVariantAllowed: true
+  },
+  {
+    name: "Formen",
+    type: "enum",
+    values: [
+      {
+        imageUrl: null,
+        name: "Rund",
+        positionValue: "30"
+      },
+      {
+        imageUrl: null,
+        name: "Quadratisch",
+        positionValue: "31"
+      }
+    ],
+    position: 3,
+    multiVariantAllowed: true
+  },
+  {
+    name: "Geschlecht",
+    type: "enum",
+    values: [
+      {
+        imageUrl: null,
+        name: "Mann",
+        positionValue: "30"
+      },
+      {
+        imageUrl: null,
+        name: "Frau",
+        positionValue: "31"
+      }
+    ],
+    position: 3,
+    multiVariantAllowed: true
+  }
+}
